@@ -12,7 +12,7 @@ The implementation of the garbage collector is tailored to the Memluv framework.
  
 ## Getting Started
 
-(*required for the implementation*) The following steps are required for implementing the garbage collector on the Memluv DMM framework
+(***required for the implementation***) The following steps are required for implementing the garbage collector on the Memluv DMM framework
 ### Implementation Prerequisites
 
 * Download and Install Vitis 2020.1 (https://www.xilinx.com/support/download.html)
