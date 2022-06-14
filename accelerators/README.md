@@ -7,7 +7,7 @@ In this directory two benchmarks are given for evaluation
 * To avoid memory access violations during the compaction a code transformation at the accelerators' source code is required before the memory access operations
 
 <p>
-    <img src="resources/code_transformation.png" width="500" height="450">
+    <img src="resources/code_transformation.png" width="900" height="450">
 </p>
 
 * This is required as the garbage collector is executed asynchronously of the accelerators' execution.
