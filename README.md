@@ -30,7 +30,7 @@ The goal of this analysis is to determine the value of the **Theta** parameter t
 Monte-Carlo analysis check /offline_analysis/README.md
 * *The methodology*
 <p>
-    <img src="resources/flow.png" width="1300" height="450">
+    <img src="resources/flow.png" width="1600" height="450">
 </p>
 
 * The offline analysis is performed on the distinct allocation sizes (DAS) of the accelerators that will be implemented on the FPGA. The Monte-Carlo analysis is performed in order to statistcially quantify
@@ -53,19 +53,19 @@ the probability of memory allocation failures due to heap fragmentation when tho
 </p>
 
 * Resource Overhead by the garbage collector for different heap sizes
-| Heap Size  | LUTs     | FFs                     | DSPs                     | BRAMs    | URAMs
-|----------------|-----------------|--------------------------|-------------------------|--------------------------|
-| 2 KB           | 2,977           | 1,566 | 0 | 0 | 0 |
-| 4 KB           | 3,232           | 1,663 | 0 | 0 | 0 |
-| 32 KB         | 6,345            | 1,787 | 0 | 0 | 0 |
-| 100 KB         | 25,345          | 2,467 | 0 | 0 | 0 |
-| 120 KB        | 29,645           | 2,843 | 0 | 0 | 0 |
-| 1 MB           | 75,945          | 6,000 | 0 | 0 | 0 |
-| 2 MB           | 141,291         | 6,120 | 0 | 0 | 0 |
-| 4 MB           | 272,412         | 6,345 | 0 | 0 | 0 |
-| 6 MB           |  403,462        | 6,543 | 0 | 0 | 0 |
-| 8 MB           | 534,612         | 6,612 | 0 | 0 | 0 |
-| 10 MB          | 645,651         | 6,638 | 0 | 0 | 0 |
+| Heap Size  | LUTs     | FFs                     | DSPs                     | BRAMs                    | URAMs   |
+|------------|----------|-------------------------|------------------------- |--------------------------|---------|
+| 2 KB       | 2,977           | 1,566 | 0 | 0 | 0 |
+| 4 KB       | 3,232           | 1,663 | 0 | 0 | 0 |
+| 32 KB      | 6,345            | 1,787 | 0 | 0 | 0 |
+| 100 KB     | 25,345          | 2,467 | 0 | 0 | 0 |
+| 120 KB     | 29,645           | 2,843 | 0 | 0 | 0 |
+| 1 MB       | 75,945          | 6,000 | 0 | 0 | 0 |
+| 2 MB       | 141,291         | 6,120 | 0 | 0 | 0 |
+| 4 MB       | 272,412         | 6,345 | 0 | 0 | 0 |
+| 6 MB       |  403,462        | 6,543 | 0 | 0 | 0 |
+| 8 MB       | 534,612         | 6,612 | 0 | 0 | 0 |
+| 10 MB      | 645,651         | 6,638 | 0 | 0 | 0 |
 
 
 
