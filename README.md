@@ -26,8 +26,7 @@ The implementation of the garbage collector is tailored to the Memluv framework.
 
 ## Methodology
 An offline python-based Monte-Carlo (MC) analysis is performed on the accelerators that will be executed on the FPGA. This step is performed before synthesizing the garbage collector.
-The goal of this analysis is to determine the value of the **Theta** parameter that is suitable for those accelerators and reduces the memory fragmentation. For additional information of this offline
-Monte-Carlo analysis check /offline_analysis/README.md
+The goal of this analysis is to determine the value of the **Theta** parameter that is suitable for those accelerators and reduces the memory fragmentation. * For additional information of this offline Monte-Carlo analysis check /offline_analysis/README.md
 * *The methodology*
 <p>
     <img src="resources/flow.png" width="1600" height="450">
@@ -56,17 +55,17 @@ the probability of memory allocation failures due to heap fragmentation when tho
 
 | **Heap Size**  | **LUTs**     | **FFs**    | **DSPs**                 | **BRAMs**                | **URAMs**   |
 |----------------|--------------|------------|--------------------------|--------------------------|-------------|
-| 2 KB           | 2,977        | 1,566      | 0                        | 0 | 0 |
-| 4 KB           | 3,232        | 1,663      | 0                        | 0 | 0 |
-| 32 KB          | 6,345        | 1,787      | 0                        | 0 | 0 |
-| 100 KB         | 25,345       | 2,467      | 0                        | 0 | 0 |
-| 120 KB         | 29,645       | 2,843      | 0                        | 0 | 0 |
-| 1 MB           | 75,945       | 6,000      | 0                        | 0 | 0 |
-| 2 MB           | 141,291      | 6,120      | 0                        | 0 | 0 |
-| 4 MB           | 272,412      | 6,345      | 0                        | 0 | 0 |
-| 6 MB           |  403,462     | 6,543      | 0                        | 0 | 0 |
-| 8 MB           | 534,612      | 6,612      | 0                        | 0 | 0 |
-| 10 MB          | 645,651      | 6,638      | 0                        | 0 | 0 |
+| **2 KB**           | 2,977        | 1,566      | 0                        | 0 | 0 |
+| **4 KB**           | 3,232        | 1,663      | 0                        | 0 | 0 |
+| **32 KB**          | 6,345        | 1,787      | 0                        | 0 | 0 |
+| **100 KB**         | 25,345       | 2,467      | 0                        | 0 | 0 |
+| **120 KB**         | 29,645       | 2,843      | 0                        | 0 | 0 |
+| **1 MB**           | 75,945       | 6,000      | 0                        | 0 | 0 |
+| **2 MB**           | 141,291      | 6,120      | 0                        | 0 | 0 |
+| **4 MB**           | 272,412      | 6,345      | 0                        | 0 | 0 |
+| **6 MB**           |  403,462     | 6,543      | 0                        | 0 | 0 |
+| **8 MB**           | 534,612      | 6,612      | 0                        | 0 | 0 |
+| **10 MB**          | 645,651      | 6,638      | 0                        | 0 | 0 |
 
 
 
