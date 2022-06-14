@@ -29,7 +29,7 @@ An offline python-based Monte-Carlo (MC) analysis is performed on the accelerato
 The goal of this analysis is to determine the value of the **Theta** parameter that is suitable for those accelerators and reduces the memory fragmentation. * For additional information of this offline Monte-Carlo analysis check /offline_analysis/README.md
 * *The methodology*
 <p>
-    <img src="resources/flow.png" width="1600" height="450">
+    <img src="resources/flow.png" width="1900" height="450">
 </p>
 
 * The offline analysis is performed on the distinct allocation sizes (DAS) of the accelerators that will be implemented on the FPGA. The Monte-Carlo analysis is performed in order to statistcially quantify
