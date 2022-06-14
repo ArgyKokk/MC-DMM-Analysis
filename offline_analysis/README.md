@@ -6,10 +6,10 @@ The code in this directory is used for the Monte-Carlo offline analysis
 * The goal of this analysis is to find all the **Theta** values of that reduce memory fragmentation
 
 <p>
-    <img src="resources/offline.png" width="1000" height="450">
+    <img src="resources/offline.png" width="600" height="450">
 </p>
 
 * The output of the Monte-Carlo is sub-optimal points that trade-off performance Vs memory efficieny
 <p>
-    <img src="resources/optimal_thetas.png" width="450" height="450">
+    <img src="resources/optimal_thetas.png" width="800" height="800">
 </p>
