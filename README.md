@@ -40,16 +40,6 @@ the probability of memory allocation failures due to heap fragmentation when tho
  
 
 ## Evaluation
-* The methodology and the execution of the garbage collector are tested on an Alveo U200 for 20 K-means accelerators that share one heap of 100 KB. The heap is implemented as a RAM_1WNR with BRAMs.
-* More DAS per heap lead to higher probability of fragmentation due to the heterogeinity of the memory allocation sizes
-<p>
-    <img src="resources/decrease_mafs.png" width="900" height="450">
-</p>
-
-* Smaller **Theta** leads to more execution of the garbage collector and reduces the accelerators' throughput
-<p>
-    <img src="resources/compactions.png" width="900" height="450">
-</p>
 
 * Resource Overhead (*number and utilization(%)*) by the garbage collector for different heap sizes at Xilinx Alveo U200
 
